@@ -10,3 +10,4 @@
 │── requirements.txt (dependințe: FastAPI, pytest, etc.)
 
 Uvicorn → serverul pe care îl vom folosi pentru a rula API-ul
+pip install pydantic -  ne ajută să definim structura datelor.
