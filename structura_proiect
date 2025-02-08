@@ -1,0 +1,12 @@
+🛠️ Structura proiectului
+📁 todo_api/ (numele proiectului, îl putem schimba)
+│── 📁 src/ (codul aplicației)
+│ │── main.py (punctul de intrare, API-ul FastAPI/Flask)
+│ │── models.py (definirea clasei Task)
+│ │── database.py (simulare bază de date, inițial folosim un dicționar)
+│ │── routes.py (definim endpoint-urile API-ului)
+│── 📁 tests/ (testele pentru API, folosind pytest)
+│ │── test_routes.py (testele pentru fiecare endpoint)
+│── requirements.txt (dependințe: FastAPI, pytest, etc.)
+
+Uvicorn → serverul pe care îl vom folosi pentru a rula API-ul
